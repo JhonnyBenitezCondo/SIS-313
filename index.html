@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub</title>
+</head>
+<body>
+    <h1>Como subir un proyecto a GitHub</h1>
+    <h3>Introduccion</h3>
+      <p>GitHub permite almacenar nuestros proyectos de forma remota y trabajar con ellos utilizando Git.</p>
+
+    <ol>
+        <li>
+            <strong>Crear una carpeta</strong>
+            <p>Crear una carpeta para el proyecto y abrir la terminal dentro de ella.</p>
+        </li>
+
+        <li>
+            <strong>Inicializar Git</strong>
+            <p>Iniciar el repositorio local y comprobar su estado.</p>
+            <ul>
+                <li>git init</li>
+                <li>git status</li>
+            </ul>
+        </li>
+
+        <li>
+            <strong>Preparar los archivos</strong>
+            <p>Agregar los archivos para realizar el commit.</p>
+            <ul>
+                <li>git add .</li>
+            </ul>
+        </li>
+
+        <li>
+            <strong>Crear un commit</strong>
+            <p>Guardar los cambios en el historial.</p>
+            <ul>
+                <li>git commit -m "Primer commit"</li>
+            </ul>
+        </li>
+
+        <li>
+            <strong>Crear el repositorio</strong>
+            <p>Ingresar a GitHub, seleccionar New repository, colocar un nombre y crear el repositorio.</p>
+        </li>
+
+        <li>
+            <strong>Conectar con GitHub</strong>
+            <p>Conectar el repositorio local con el repositorio remoto.</p>
+            <ul>
+                <li>git remote add origin URL_DEL_REPOSITORIO</li>
+            </ul>
+        </li>
+
+        <li>
+            <strong>Subir el proyecto</strong>
+            <p>Enviar el proyecto a GitHub.</p>
+            <ul>
+                <li>git branch -M main</li>
+                <li>git push -u origin main</li>
+            </ul>
+        </li>
+
+        <li>
+            <strong>Verificar</strong>
+            <p>Ingresar al repositorio y comprobar que los archivos se hayan subido correctamente.</p>
+        </li>
+    </ol>
+</body>
+</html>
